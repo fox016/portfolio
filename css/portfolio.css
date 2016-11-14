@@ -1,0 +1,185 @@
+/* Mobile */
+@media (max-width: 700px) {
+	body {
+		background-color:white;
+	}
+	#wrapper {
+		width:100%;
+		background-color:white;
+		margin:0px auto;
+	}
+	.cell {
+		padding-bottom:20px;
+		padding-right:20px;
+	}
+	#pageDesc {
+		padding:20px;
+	}
+	.menuImage {
+		text-align:left;
+		font-size:3em;
+		margin-right:5px;
+	}
+	.menuBtn {
+		margin-left:5px;
+	}
+	.menuDesc {
+		display:none;
+	}
+	.menuTable > .row > .cell {
+		display: inline-flex;
+		width:100%;
+	}
+}
+
+/* Not mobile */
+@media (min-width: 701px) {
+	body {
+		background-image:url("../img/asanoha-400px.png");
+	}
+	#wrapper {
+		background-color:white;
+		margin:0px auto;
+		width:80%;
+	}
+	.cell {
+		display:table-cell;
+	}
+	.menuTable {
+		border-spacing:40px;
+	}
+	#pageDesc {
+		padding:20px 100px;
+	}
+	.menuImage {
+		text-align:center;
+		font-size:4em;
+	}
+	.menuTable > .row > .cell {
+		width:33%;
+	}
+}
+
+/* All devices */
+body {
+	margin:0;
+	padding:0;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.wide {
+	width:100%;
+}
+.title {
+	padding:0;
+	font-size:2em;
+	font-weight:bold;
+}
+.table {
+	display:table;
+}
+.row {
+	display:table-row;
+}
+.top {
+	vertical-align:top;
+}
+#topBar {
+	background:#333;
+	color:white;
+	padding:10px 20px;
+	font-weight:lighter;
+}
+a {
+	text-decoration:none;
+	color:#336699;
+}
+a:hover {
+	text-decoration:underline;
+}
+#topBar a {
+	color:#ddd;
+}
+#topBar a:hover {
+	color:white;
+}
+#content {
+	overflow-y:auto;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2) inset, 0px -3px 7px rgba(0, 0, 0, 0.2) inset;
+}
+#pageDesc {
+	background-color:#c8d0d7;
+	color:#333;
+	background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(90deg, rgba(255,255,255,.13) 50%, rgba(0, 0, 0, 0) 50%), linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, rgba(255,255,255,.17) 50%), linear-gradient(90deg, rgba(0, 0, 0, 0) 50%, rgba(255,255,255,.19) 50%);
+	background-size: 13px, 29px, 37px, 53px;
+	text-shadow:0px 1px 3px #fff, 0px 0px 30px rgba(255, 255, 255, 0.9);
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2) inset, 0px -3px 7px rgba(0, 0, 0, 0.2) inset;
+}
+#pageDesc .subtitle {
+	font-size:1.1em;
+	line-height:1.5em;
+}
+#pageDesc img {
+	max-height:140px;
+	border:1px solid #333;
+	position:relative;
+	margin-right:30px;
+}
+.smLink {
+	display:initial;
+	margin:0 5px;
+}
+.menuTable > .row > .cell {
+	padding:20px;
+	border:1px solid #ccc;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1), 0px -1px 10px rgba(0, 0, 0, 0.1);
+	border-radius:10px;
+	background:#fafafa;
+}
+.menuImage {
+	color:#777;
+}
+.menuTitle {
+	text-align:center;
+	font-size:1.2em;
+	font-weight:bold;
+	margin:5px 0 15px 0;
+	color:#333;
+}
+.menuDesc {
+	font-size:0.9em;
+	line-height:1.5em;
+	padding:0 10px 25px 10px;
+	color:#333;
+}
+.menuLine {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+.menuBtn {
+	text-align:center;
+}
+.goBtn {
+	font-size: 0.9em;
+	padding: 5px 30px;
+	background-color:#587b9a;
+	cursor: pointer;
+	border-radius: 10px;
+	color:#eee;
+}
+.goBtn:hover {
+	background-color:#5e82a1;
+	color:#fff;
+}
+.essay {
+	padding:30px;
+	font-size:0.9em;
+	line-height:1.5em;
+}
+.schoolBtn {
+	margin-top:15px;
+}
+.courseList {
+	margin-top:10px;
+	display:none;
+}

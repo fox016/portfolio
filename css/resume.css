@@ -1,0 +1,54 @@
+#resume {
+	margin:20px auto;
+	width:8.5in;
+	font-family:Tahoma,Geneva,sans-serif;
+	color:#333;
+}
+#resume span.bold {
+	font-weight:bold;
+}
+#resume #title {
+	text-align:center;
+	font-size:1.5em;
+	letter-spacing:2px;
+}
+#resume #contactInfo {
+	margin:0px auto;
+	font-size:0.8em;
+}
+#resume .heading {
+	border-bottom:1px solid #333;
+	font-size:0.9em;
+	padding-left:10px;
+	letter-spacing:1px;
+}
+#resume .textBlock {
+	margin:20px;
+	font-size:0.9em;
+}
+#resume ul {
+	margin:0px;
+	padding:0px 0px 0px 20px;
+	font-size:0.9em;
+}
+#resume .headerTable {
+	width:100%;
+}
+#resume .headerTable th {
+	width:33%;
+	text-align:left;
+	font-style:italic;
+	font-size:0.9em;
+}
+#resume #referenceTable {
+	font-size:0.9em;
+	border-collapse:collapse;
+	border-spacing:0px;
+}
+#resume #referenceTable th {
+	text-align:left;
+	font-style:italic;
+}
+#resume #referenceTable td {
+	padding-right:10px;
+}
