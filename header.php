@@ -12,7 +12,7 @@
 			<div id='topBar'>
 				<div class='table wide'>
 					<div class='row'>
-						<div class='cell'><a href='/noauth/natefox/'><i class='fa fa-home'></i><span style='margin-left:5px'>Nate Fox</span></a></div>
+						<div class='cell'><a href='./'><i class='fa fa-home'></i><span style='margin-left:5px'>Nate Fox</span></a></div>
 						<div class='cell' style='text-align:right;font-size:1.5em'>
 							<div class='smLink'><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/potatofox'><i class='fa fa-linkedin'></i></a></div>
 							<div class='smLink'><a title='GitHub' target='_blank' href='https://github.com/fox016'><i class='fa fa-github'></i></a></div>
