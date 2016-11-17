@@ -15,6 +15,14 @@
 		<div class='row'>
 			<div class='cell'>
 				<div class='menuImage'><i class='fa fa-pencil'></i></div>
+				<div class='menuTitle'>School Design</div>
+				<div class='menuDesc'>Some ideas for how I would run a school based on learning and instructional theory</div>
+				<div class='menuBtn'>
+					<a href='./school_design.php'><button class='goBtn'>See More</button></a>
+				</div>
+			</div>
+			<div class='cell'>
+				<div class='menuImage'><i class='fa fa-pencil'></i></div>
 				<div class='menuTitle'>Informal Learning</div>
 				<div class='menuDesc'>My reflections of observing informal learning at Thanksgiving Point's Museum of Natural Curiosity</div>
 				<div class='menuBtn'>
