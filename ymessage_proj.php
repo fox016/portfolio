@@ -18,34 +18,5 @@
 		<div class='center'><img src='./img/ymessage/appt_view.png'></div>
 	</div>
 </div>
-
-<script>
-
-$(document).ready(function()
-{
-	$(".projectWrapper img").each(function() {
-		$(this).attr('init_width', $(this).outerWidth());
-	});
-
-	$(window).resize(windowResize).trigger('resize');
-
-	$(".projectWrapper img").click(function() {
-		location.href = $(this).attr('src');
-	});
-});
-
-function windowResize()
-{
-	var contentWidth = $("#content").outerWidth();
-	$(".projectWrapper img").each(function() {
-		$(this).outerWidth(min($(this).attr('init_width'), contentWidth - 100));
-	});
-}
-
-function min(a, b)
-{
-	return (a < b) ? a : b;
-}
-
-</script>
+<script type='text/javascript' src='js/project.js'></script>
 <?php require_once('footer.php'); ?>

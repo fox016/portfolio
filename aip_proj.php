@@ -18,22 +18,5 @@
 		<div class='center'><img src='./img/aip/admin.png'></div>
 	</div>
 </div>
-
-<script>
-
-$(document).ready(function()
-{
-	$(window).resize(windowResize).trigger('resize');
-	$(".projectWrapper img").click(function() {
-		location.href = $(this).attr('src');
-	});
-});
-
-function windowResize()
-{
-	var contentWidth = $("#content").outerWidth();
-	$(".projectWrapper img").outerWidth(contentWidth - 100);
-}
-
-</script>
+<script type='text/javascript' src='js/project.js'></script>
 <?php require_once('footer.php'); ?>
