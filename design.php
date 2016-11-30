@@ -18,7 +18,7 @@
 				<div class='menuTitle'>Intro to Coding Course</div>
 				<div class='menuDesc'>My design of a college-level introductory coding course</div>
 				<div class='menuBtn'>
-					<a href=''><button class='goBtn'>Coming Soon</button></a>
+					<a href='./intro-to-coding.pdf'><button class='goBtn'>See More</button></a>
 				</div>
 			</div>
 		</div>

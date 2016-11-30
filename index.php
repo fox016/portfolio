@@ -65,6 +65,7 @@
 				</div>
 			</div>
 		</div>
+<!--
 		<div class='row'>
 			<div class='cell'>
 				<div class='menuImage'><i class='fa fa-code'></i></div>
@@ -75,5 +76,6 @@
 				</div>
 			</div>
 		</div>
+-->
 	</div>
 <?php require_once('footer.php'); ?>

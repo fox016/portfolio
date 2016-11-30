@@ -3,6 +3,7 @@
 <head>
 	<meta name='viewport' content="width=device-width, initial-scale=1" />
 	<script src="https://use.fontawesome.com/dccd98187e.js"></script>
+	<script src="./js/jquery-3.1.1.min.js"></script>
 	<link rel='stylesheet' type='text/css' href='css/font-awesome.min.css' />
 	<link rel='stylesheet' type='text/css' href='css/portfolio.css' />
 </head>
